@@ -34,7 +34,7 @@ function draw() {
     step();
 
     const scale = 15;
-    const px = w * 0.75 + x * scale;
+    const px = w * 0.8 + x * scale;
     const py = h * 0.5 - (z - 25) * scale;
 
     ctx.fillStyle = "rgba(21, 88, 57, 0.42)";
