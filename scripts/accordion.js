@@ -117,8 +117,8 @@ COURSES.forEach(course => {
     // Then open this one (unless it was already open)
     if (!isOpen) {
       item.classList.add('open');
+      console.log("Accordion opened for course:", course.name);
       gtag("event", "accordion_open", {
-        console.log("Accordion opened for course:", course.name);
         course: course.name
       });
     }
