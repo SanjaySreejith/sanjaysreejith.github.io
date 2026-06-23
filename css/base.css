@@ -1,0 +1,31 @@
+:root {
+  --ink: #0F1923;        /* main dark color — text, nav, buttons */
+  --amber: #E8A020;      /* accent color — used sparingly for emphasis */
+  --surface: #fdfdfd;    /* page background */
+  --white: #ffffff;      /* card backgrounds */
+  --muted: #4A5568;      /* secondary/gray text */
+  --border: rgba(15,25,35,0.12); /* default border color */
+
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-background-primary: var(--surface);
+  --color-background-secondary: var(--white);
+
+  --color-text-primary: var(--ink);
+  --color-text-secondary: var(--muted);
+
+  --color-border-secondary: var(--border);
+  --color-accent: var(--amber);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--surface);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; }

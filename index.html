@@ -1,20 +1,86 @@
-<h1>Cal Poly Math & Physics Tutoring</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLO Tutoring</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/accordion.css">
+<link rel="stylesheet" href="css/lorenz.css">
 
-<p>Summer support for Calculus, Differential Equations, Linear Algebra, and Physics.</p>
+</head>
 
-<h2>Courses</h2>
-<ul>
-  <li>MATH 141 / 142 / 143</li>
-  <li>MATH 206</li>
-  <li>Linear Algebra</li>
-  <li>PHYS 141 / intro physics</li>
-</ul>
+<body>
+<canvas id="lorenz"></canvas>
+<script src="scripts/lorenz.js"></script>
 
-<h2>Services</h2>
-<ul>
-  <li>Group review sessions</li>
-  <li>Midterm and final prep</li>
-  <li>Private tutoring by request</li>
-</ul>
+<nav class="topbar">
+  <a href="#" class="topbar-logo">SLO Tutoring</a>
+  <ul class="topbar-links">
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact" class="btn btn-primary" color="white">Join a session</a></li>
+  </ul>
+</nav>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdw-sRQX3uZAZ3PEBlSxCjVthdju08k0MLrR6mI4y52t7kHEg/viewform?usp=publish-editor">Join the interest list</a>
+<header class="hero">
+  <p class="hero-eyebrow">Cal Poly SLO &middot; Math, Physics & CS</p>
+  <h1>Student support for math and physics</h1>
+  <p>Weekly study sessions built around your actual course. Materials included.</p>
+  <div class="hero-buttons">
+    <a href="#contact" class="btn btn-primary">Join a study group</a>
+    <a href="mailto:sanjay@slotutoring.com" class="btn btn-outline">Email a question</a>
+  </div>
+</header>
+
+<section class="section" id="courses">
+  <p class="section-label">Courses</p>
+  <h2 class="section-title">Find your course</h2>
+  <div class="accordion" id="accordion"></div>
+  <script src="scripts/accordion.js"></script>
+</section>
+
+<section class="section" id="schedule">
+  <p class="section-label">Schedule</p>
+  <h2 class="section-title">When to join</h2>
+  <p class="section-desc">Check the calendar to see when sessions are available.</p>
+  <iframe src="https://outlook.office365.com/owa/calendar/fec1d73328f6489e83c21f3069ba9b63@calpoly.edu/b553fc091d034480a4b9f986958e58a81204410761512220335/calendar.html" width="100%" height="600" frameborder="0"></iframe>
+</section>
+
+<section class="section" id="pricing">
+  <p class="section-label">Pricing</p>
+  <h2 class="section-title">Affordable rates</h2>
+  <p class="section-desc">Group sessions and one-on-one tutoring are available.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Group session</h3>
+      <p>$15 / student / session. Small groups twice a week.</p>
+    </div>
+    <div class="card">
+      <h3>One-on-one</h3>
+      <p>Contact for pricing information. Rates depend on course and frequency.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <p class="section-label">Contact</p>
+  <h2 class="section-title">Ready to join?</h2>
+  <p class="section-desc">Use the form to sign up, or email directly with questions.</p>
+
+  <div class="hero-buttons" style="justify-content: flex-start;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdw-sRQX3uZAZ3PEBlSxCjVthdju08k0MLrR6mI4y52t7kHEg/viewform?usp=dialog" target="_blank" class="btn btn-primary">Open signup form</a>
+    <a href="mailto:ssreejit@calpoly.edu" class="btn btn-outline">ssreejit@calpoly.edu</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Sanjay Sreejith &middot; SLO Tutoring &middot; Baker Science, Cal Poly SLO</p>
+</footer>
+
+</body>
+</html>
