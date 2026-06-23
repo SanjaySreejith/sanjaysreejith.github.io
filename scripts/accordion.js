@@ -2,35 +2,35 @@ const COURSES = [
   {
     tag: 'MATH 142',
     name: 'Calculus II',
-    desc: 'The course that breaks the most students in the sequence, mostly because it\'s three different topics stitched together. We build a decision framework for integration techniques and spend serious time on series convergence — the part that shows up on every exam.',
+    desc: 'The feared sequel to Calculus I. This involves a slew of integration techniques that are challenging to master.',
     topics: ['Integration techniques', 'U-substitution', 'Integration by parts', 'Sequences', 'Series convergence', 'Taylor series'],
     sessions: 'Mon & Wed · Baker Science · $15/session'
   },
   {
     tag: 'MATH 143',
     name: 'Calculus III',
-    desc: 'Multivariable calculus is mostly Calc I and II ideas extended into three dimensions — once the geometric intuition is there, the algebra follows. We spend the first session entirely on getting comfortable in 3D before touching any calculus.',
+    desc: 'This course feels like a number of different topics thrown together. We cover sequences, series, parametric functions, with an introduction to vector calculus. This course benefits greatly from external support.',
     topics: ['Vectors', 'Partial derivatives', 'Gradient', 'Double & triple integrals', 'Green\'s theorem', 'Stokes\' theorem'],
     sessions: 'Tue & Thu · Baker Science · $15/session'
   },
   {
     tag: 'MATH 206',
     name: 'Linear Algebra I',
-    desc: 'The key shift from calculus: you\'re no longer doing things to functions, you\'re finding them from relationships. We build a clear taxonomy early — which method applies to which type of equation — so you\'re never staring at a problem with no idea where to start.',
+    desc: 'A highly geometric course that benefits greatly from visual understanding. We cover vectors, matrices, and linear transformations.',
     topics: ['First-order ODEs', 'Second-order linear', 'Systems of ODEs', 'Laplace transforms', 'Phase portraits'],
     sessions: 'Mon & Wed · Baker Science · $15/session'
   },
   {
     tag: 'MATH 221',
     name: 'Calculus for Business and Economics',
-    desc: 'The key shift from calculus: you\'re no longer doing things to functions, you\'re finding them from relationships. We build a clear taxonomy early — which method applies to which type of equation — so you\'re never staring at a problem with no idea where to start.',
+    desc: 'A fast course that covers a lot of ground. It is designed to provide students a solid basis in the ideas of calculus to apply in business and economic contexts.',
     topics: ['First-order ODEs', 'Second-order linear', 'Systems of ODEs', 'Laplace transforms', 'Phase portraits'],
     sessions: 'Mon & Wed · Baker Science · $15/session'
   },
   {
     tag: 'MATH 241',
     name: 'Calculus IV',
-    desc: 'Multivariable calculus is mostly Calc I and II ideas extended into three dimensions — once the geometric intuition is there, the algebra follows. We spend the first session entirely on getting comfortable in 3D before touching any calculus.',
+    desc: 'Multivariable calculus is mostly Calc I, II and III ideas extended into three dimensions. This course is fundamentally simple but can leave you spinning your wheels until everything clicks.',
     topics: ['Vectors', 'Partial derivatives', 'Gradient', 'Double & triple integrals', 'Green\'s theorem', 'Stokes\' theorem'],
     sessions: 'Tue & Thu · Baker Science · $15/session'
   },
@@ -52,28 +52,28 @@ const COURSES = [
   {
     tag: 'PHYS 141',
     name: 'Physics I - Mechanics',
-    desc: 'Physics I students usually know Newton\'s laws. What they struggle with is setting up problems — translating a physical situation into equations before any solving happens. Every session starts with free body diagrams, every time, no exceptions.',
+    desc: 'This class is deceptively hard. Newton\'s laws are easy to state, but applying them to real-world problems can be challenging. Setting up the problem is often the hardest part. This course is foundational to all of physics.',
     topics: ['Kinematics', 'Newton\'s laws', 'Energy conservation', 'Momentum', 'Circular motion', 'Rotational dynamics'],
     sessions: 'Mon & Wed · Baker Science · $15/session'
   },
   {
     tag: 'PHYS 142',
     name: 'Physics II - Waves, Optics & Thermodynamics',
-    desc: 'The course where physical intuition from mechanics mostly stops working. We spend the first session building geometric intuition for fields — drawing them, sketching them, understanding them before quantifying them. Gauss\'s law gets a full session of its own.',
+    desc: 'This course (like Calculus II) feels like a number of different topics thrown together. We cover waves, optics, and thermodynamics. The wave portion is particularly important to master as it forms the foundation for many other topics in physics.',
     topics: ['Electric fields', 'Gauss\'s law', 'Electric potential', 'Circuits', 'Magnetic fields', 'Faraday\'s law'],
     sessions: 'Tue & Thu · Baker Science · $15/session'
   },
   {
     tag: 'PHYS 143',
     name: 'Physics III - Electricity & Magnetism',
-    desc: 'The course where physical intuition from mechanics mostly stops working. We spend the first session building geometric intuition for fields — drawing them, sketching them, understanding them before quantifying them. Gauss\'s law gets a full session of its own.',
+    desc: 'We depart from everyday physical objects and focus on the mathematical description of electromagnetic phenomena. Common challenges include understanding the behavior of electric and magnetic fields and applying Maxwell\'s equations. This course benefits disproportionately from a geometric approach and fluency in multivariable calculus.',
     topics: ['Electric fields', 'Gauss\'s law', 'Electric potential', 'Circuits', 'Magnetic fields', 'Faraday\'s law'],
     sessions: 'Tue & Thu · Baker Science · $15/session'
   },
   {
     tag: 'CSC 248',
     name: 'Discrete Structures',
-    desc: 'Essentially the CS version of Methods of Proof with combinatorics and graph theory on top. The proof sessions transfer directly — we build a strategy toolkit (direct, contrapositive, contradiction, induction) and drill it through enough examples that it starts feeling instinctive.',
+    desc: 'Essentially the CS version of a proofs course. We will build a clear toolkit of proof techniques and develop ways of identifying the right approach for each problem.',
     topics: ['Logic', 'Proof techniques', 'Induction', 'Combinatorics', 'Graph theory', 'Recurrence relations'],
     sessions: 'Mon · Baker Science · $15/session'
   },

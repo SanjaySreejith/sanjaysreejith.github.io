@@ -1,7 +1,7 @@
 .hero {
   max-width: 700px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
   align-items: center;
@@ -21,6 +21,13 @@
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.15;
   margin-bottom: 1rem;
+}
+
+.hero h3 {
+  font-size: 1.15rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 .hero h1 span { color: var(--amber); } /* wrap any word in <span> to color it */

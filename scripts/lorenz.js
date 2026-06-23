@@ -13,7 +13,7 @@ let x = 0.1, y = 0, z = 0;
 const sigma = 10;
 const rho = 28;
 const beta = 8 / 3;
-const dt = 0.006;
+const dt = 0.001;
 
 ctx.clearRect(0, 0, w, h);
 
