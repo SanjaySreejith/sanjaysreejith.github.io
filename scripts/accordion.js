@@ -115,7 +115,12 @@ COURSES.forEach(course => {
     });
 
     // Then open this one (unless it was already open)
-    if (!isOpen) item.classList.add('open');
+    if (!isOpen) {
+      item.classList.add('open');
+      gtag("event", "accordion_open", {
+        course: course.name
+      });
+    }
   });
 
   container.appendChild(item);
